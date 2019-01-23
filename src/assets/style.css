@@ -1,0 +1,116 @@
+.main {
+    --background: rgba(11, 12, 16, 1);
+    --background2: rgba(32, 40, 51, 1);
+    --background2: #191F27;
+
+    --border: #202833;
+    --border2: #000;
+    --green: #78B821;
+}
+
+section {
+    height: 100vh;
+}
+
+.pri-green {
+    color: #78B821
+}
+
+@media screen and (max-width:997px) {
+    .logo {
+        height: 40px;
+    }
+
+    .home-1 {
+        height: 350px !important;
+        width: 350px !important;
+
+    }
+
+    .img-box {
+        box-shadow: 0px 0px 0px 0px !important;
+    }
+
+    .floating-text-1,
+    .floating-text-2,
+    .floating-text-3,
+    .floating-text-4,
+    .top-left-svg,
+    .top-right-svg,
+    .bottom-left-svg,
+    .bottom-right-svg {
+        display: none !important;
+    }
+
+    .hidden-x {
+        visibility: hidden !important;
+        display: none;
+    }
+
+    .hidden-v {
+        visibility: visible !important;
+        display: flex !important;
+    }
+
+    .video-box {
+        width: 350px !important;
+        height: 200px !important;
+    }
+
+    .m-pt-5 {
+        padding-top: 25px !important;
+    }
+
+    section {
+        height: auto !important;
+    }
+
+    .mhome-container {
+        visibility: visible !important;
+        display: flex !important;
+    }
+
+    .mnp {
+        padding: 0 !important;
+    }
+
+    .mnp2 {
+        padding: 8px 8px !important;
+    }
+
+
+    .h-auto {
+        height: auto !important;
+    }
+
+    .border-left {
+        border: 0 !important;
+    }
+}
+
+.hidden-x {
+    visibility: visible;
+}
+
+.mhome-container {
+    visibility: hidden;
+    display: none;
+}
+
+.hidden-v {
+    visibility: hidden;
+    display: none;
+}
+
+.article-title:hover {
+    color: #bcbcbc;
+    transition: 0.2s;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.no-padding {
+    padding: 0 !important;
+}
